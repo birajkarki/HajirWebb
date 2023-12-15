@@ -25,7 +25,9 @@ const OTP = () => {
           <Link href="/sign-in">Back to login</Link>
           <h1 className="text-3xl font-semibold mb-4">Enter OTP</h1>
           <div className="justify-center">
-            <Link href="/dashboard">Go to Dashboard</Link>
+            <Link className="text-red-500" href="/dashboard">
+              Go to Dashboard
+            </Link>
           </div>
 
           <div className="flex justify-center space-x-4">

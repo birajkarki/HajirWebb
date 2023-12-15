@@ -4,10 +4,7 @@ import Link from "next/link";
 export default function Dashboard({ children }) {
   return (
     <section>
-      <div>
-        <Link href="/company">COmpany</Link>
-        <Link href="/profile">Profile</Link>
-      </div>
+      <div></div>
       {children}
     </section>
   );
